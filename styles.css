@@ -1,0 +1,119 @@
+/* (*) serve para mandar no todo */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.tudo {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images3.alphacoders.com/133/thumb-1920-1331117.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+
+}
+
+.caixa-maior {
+    background: rgba(56, 56, 90, 0);
+    border-radius: 25px;
+    padding: 50px;
+    font-size: 20px;
+    margin: 25px;
+    width: 100%;
+    max-width: 700px;
+    backdrop-filter: blur(10px);
+    border: 2px solid #ffffff46;
+    background-image: linear-gradient(to top, #0000006e, #ffffff00);
+
+
+}
+.imagem-tempo {
+  margin-right: 10px;
+max-block-size: 200px;
+
+
+
+
+}
+
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: calc(100% - 100px);
+    border-radius: 15px;
+    background-color: rgba(1, 1, 26, 0.582);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+
+
+
+
+}
+
+
+.input-cidade::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+
+.button {
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(1, 1, 26, 0.582);
+    margin: 5px;
+    transition: background-color 0.3s;
+    color: aliceblue;
+
+}
+
+.button:hover {
+    background-color: rgba(167, 167, 180, 0.582);
+    cursor: pointer;
+}
+
+
+
+
+.textos {
+    color: rgb(233, 224, 224);
+
+}
+
+.cidade {
+    margin-top: 10px;
+}
+
+.status-temp{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.status {
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.temperatura {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.umidade {
+    font-size: 15px;
+    margin-top: 35px;
+}
